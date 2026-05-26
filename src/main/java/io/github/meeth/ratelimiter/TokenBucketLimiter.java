@@ -7,18 +7,18 @@ public class TokenBucketLimiter implements RateLimiter {
     }
 
     @Override
-    public boolean consume(String key) {
+    public boolean consume() {
         throw new UnsupportedOperationException("Not supported yet.");
     }
     
     @Override
-    public boolean consume(String key, int permits) {
+    public boolean consume(int permits) {
         // TODO Auto-generated method stub
         return false;
     }
 
     @Override
-    public void reset(String key) {
+    public void reset() {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
