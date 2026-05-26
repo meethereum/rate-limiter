@@ -12,8 +12,7 @@ public class TokenBucketLimiter implements RateLimiter {
         this.lastRefillTime = System.currentTimeMillis();
     }
 
-    int bucketSize = config.capacity();
-    int rate = config.rate();
+
 
     @Override
     public boolean consume() {
