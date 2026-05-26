@@ -1,4 +1,4 @@
-package main.java.io.github.meeth.ratelimiter;
+package io.github.meeth.ratelimiter;
 
 enum Algorithm {
     TOKEN_BUCKET,

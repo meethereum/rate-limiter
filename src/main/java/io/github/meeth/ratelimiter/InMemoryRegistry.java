@@ -1,4 +1,4 @@
-package main.java.io.github.meeth.ratelimiter;
+package io.github.meeth.ratelimiter;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class InMemoryRegistry implements RateLimiterRegistry {

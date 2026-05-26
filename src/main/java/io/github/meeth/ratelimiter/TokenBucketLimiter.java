@@ -1,4 +1,4 @@
-package main.java.io.github.meeth.ratelimiter;
+package io.github.meeth.ratelimiter;
 
 public class TokenBucketLimiter implements RateLimiter {
     private int currentTokens;
